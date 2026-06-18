@@ -1,3 +1,6 @@
+## kauan me ajudou 
+
+
 estoqueP = [
     [1,"Teclado",4,"Prateleira 01"],
     [2,"Mouse",3,"Prateleira 02"],
@@ -31,7 +34,16 @@ def listaP():
     print("--------------------------")
 
 def atualizarE():
-   idProdutos = int(input("Qual"))
+   idProdutos = int(input("Qual o id do produto?"))
+   linhaprocurada = -1
+   for i in range(len(estoqueP)):
+       if(estoqueP[i][0] == idProdutos):
+           linhaProcurada = i
+
+   print("a atualização do produto é {estoqueP[linhaprocurada]}")
+   quantidade = int(input("Qual a quantidade?: "))
+   estoqueP[linhaProcurada][2] = quantidade
+
 
 
 while True:
@@ -47,7 +59,7 @@ while True:
     elif (opcao =="4"):
         atualizarE()
     elif (opcao =="5"):
-        print("Saindo do estoque!")
+        print("Saindo do estoque!!!🚀")
         break
     
        
