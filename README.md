@@ -1,6 +1,6 @@
 # estoque 
 
-É um sistema funcional de um estoque,onde tem um menu com suas funções
+É um sistema funcional de um estoque,onde tem um menu com suas funções, esse sistema ele ajuda as pessoas a organizar um estoque, para que ele fique organizado e mais rapido e funcional para ajudar em trabalho e eme empresas.
 
 #Como esse menu funciona, na sua tela vai aparecer algumas opções cada uma tem seu numero proprio cada um com sua função.
 
