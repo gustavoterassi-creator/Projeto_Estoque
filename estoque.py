@@ -17,20 +17,22 @@ def registrarProduto():
     print("Produto inserido com sucesso! ")
 
 def idProdutos():
+    idProduto = int(input("Qual o id do produto:"))
     linhaProcurada = -1
-    idProduto = int(input("Qual o id dos produtos:"))
     for i in range(len(estoqueP)):
-        if(estoqueP[i][0] == idProdutos):
+         if(estoqueP[i][0] == idProdutos):
             linhaProcurada = i
-    print(f"O nome procurado está na linha {linhaProcurada}")
-
-
+    print(f"O produto é {estoqueP[linhaProcurada]}")
+ 
+ 
 def listaP():
     print("----- Produtos -----")
     print(f"Temos {estoqueP} de estoque disponivel:")
     print("--------------------------")
 
-def 
+def atualizarE():
+   idProdutos = int(input("Qual"))
+
 
 while True:
     print("\nBem vindo ao menu interativo do estoque. Por favor selecione uma opção:")
@@ -42,7 +44,11 @@ while True:
         idProdutos()
     elif (opcao =="3"):
         listaP()
-    elif (opcao =="4"):()
+    elif (opcao =="4"):
+        atualizarE()
+    elif (opcao =="5"):
+        print("Saindo do estoque!")
+        break
     
        
        
