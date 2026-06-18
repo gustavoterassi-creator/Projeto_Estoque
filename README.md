@@ -1,8 +1,8 @@
 # estoque 
 
-É um sistema funcional de um estoque
+É um sistema funcional de um estoque,onde tem um menu com suas funções
 
-#Como ele funciona:
+#Como esse menu funciona, na sua tela vai aparecer algumas opções cada uma tem seu numero proprio cada um com sua função.
 
 digite 1 para permitir ao usuário inserir os dados de um novo produto no estoque
 digite 2 para Solicitar um ID e exibir os dados do produto correspondente, se ele existir
